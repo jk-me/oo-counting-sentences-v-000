@@ -18,7 +18,7 @@ class String
     arr=self.split(/[.?!]/)
     arr.collect!{|x| 
       if x==''
-        array.delete(x)
+        arr.delete(x)
       end}
     binding.pry
     arr.length
