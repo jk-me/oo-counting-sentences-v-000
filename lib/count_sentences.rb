@@ -20,7 +20,6 @@ class String
       if x==''
         arr.delete(x)
       end}
-    binding.pry
     arr.length
   end
 end
